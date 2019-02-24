@@ -1,4 +1,5 @@
 const dev = {
+  STRIPE_KEY: "pk_test_g8a1seEN0IRo9exOvmVRiCvP",
   s3: {
     REGION: "ap-southeast-1",
     BUCKET: "notes-app-2-api-dev-attachmentsbucket-17o3qkfjj70b0"
@@ -16,6 +17,7 @@ const dev = {
 };
 
 const prod = {
+  STRIPE_KEY: "pk_test_g8a1seEN0IRo9exOvmVRiCvP",
   s3: {
     REGION: "ap-southeast-1",
     BUCKET: "notes-app-2-api-prod-attachmentsbucket-8xju2tgvichz"
